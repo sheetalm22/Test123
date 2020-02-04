@@ -320,21 +320,6 @@
         <RunTimePermissions></RunTimePermissions>
         <Entities>
             <Entity
-             name="PTC.SimulatorItems.DS"
-             type="DataShape">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
              name="PTC.SimulatorDeviceProperties.DS"
              type="DataShape">
                 <VisibilityPermissions>
@@ -369,7 +354,7 @@
                 </RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.SimulatorDeviceValues.DS"
+             name="PTC.SimulatorDB.DS"
              type="DataShape">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
@@ -384,7 +369,22 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.SimulatorDB.DS"
+             name="PTC.SimulatorItems.DS"
+             type="DataShape">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="PTC.SimulatorDeviceValues.DS"
              type="DataShape">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
@@ -2079,7 +2079,7 @@
         <RunTimePermissions></RunTimePermissions>
         <Entities>
             <Entity
-             name="SimulatorThing"
+             name="PTC.Simulator.Stream"
              type="Thing">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
@@ -2094,7 +2094,77 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.Simulator.Stream"
+             name="PTC.Simulator02.Thing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility>
+                        <Principal
+                         isPermitted="true"
+                         name="DeviceOrg"
+                         type="Organization"></Principal>
+                    </Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="PTC.Simulator.VS"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="PTC.SimulatorX1.Thing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility>
+                        <Principal
+                         isPermitted="true"
+                         name="DeviceOrg"
+                         type="Organization"></Principal>
+                    </Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="PTC.SimulatorTimer.Thing"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="SimulatorThing"
              type="Thing">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
@@ -2149,26 +2219,6 @@
                 <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
-             name="PTC.Simulator02.Thing"
-             type="Thing">
-                <VisibilityPermissions>
-                    <Visibility>
-                        <Principal
-                         isPermitted="true"
-                         name="DeviceOrg"
-                         type="Organization"></Principal>
-                    </Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
              name="PTC.Simulator03.Thing"
              type="Thing">
                 <VisibilityPermissions>
@@ -2178,21 +2228,6 @@
                          name="DeviceOrg"
                          type="Organization"></Principal>
                     </Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="PTC.Simulator.VS"
-             type="Thing">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
                 </VisibilityPermissions>
                 <DesignTimePermissions>
                     <Create></Create>
@@ -2263,41 +2298,6 @@
                         <EventSubscribe></EventSubscribe>
                     </Permissions>
                 </RunTimePermissions>
-            </Entity>
-            <Entity
-             name="PTC.SimulatorX1.Thing"
-             type="Thing">
-                <VisibilityPermissions>
-                    <Visibility>
-                        <Principal
-                         isPermitted="true"
-                         name="DeviceOrg"
-                         type="Organization"></Principal>
-                    </Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
-            </Entity>
-            <Entity
-             name="PTC.SimulatorTimer.Thing"
-             type="Thing">
-                <VisibilityPermissions>
-                    <Visibility></Visibility>
-                </VisibilityPermissions>
-                <DesignTimePermissions>
-                    <Create></Create>
-                    <Read></Read>
-                    <Update></Update>
-                    <Delete></Delete>
-                    <Metadata></Metadata>
-                </DesignTimePermissions>
-                <RunTimePermissions></RunTimePermissions>
             </Entity>
             <Entity
              name="PTC.Simulator04.Thing"

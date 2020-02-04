@@ -13,9 +13,9 @@
          documentationContent=""
          enabled="true"
          homeMashup=""
-         lastModifiedDate="2020-02-03T12:22:42.274Z"
+         lastModifiedDate="2020-02-03T07:22:42.274-05:00"
          locked="false"
-         lockedTime="2018-02-20T21:40:47.329Z"
+         lockedTime="2018-02-20T16:40:47.329-05:00"
          mobileMashup=""
          name="testuser"
          projectName="Simulator"
@@ -63,7 +63,7 @@
                     </DataShape>
                     <Rows>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             altEmailAddresses
@@ -72,7 +72,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             lastName
@@ -81,7 +81,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             zipCode
@@ -90,7 +90,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             smsAddress
@@ -99,7 +99,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             city
@@ -108,7 +108,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             homePhone
@@ -117,7 +117,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             fullName
@@ -126,7 +126,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             title
@@ -135,7 +135,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             firstName
@@ -144,7 +144,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             emailAddress
@@ -153,7 +153,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             mobilePhone
@@ -162,7 +162,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             mailingAddress
@@ -171,7 +171,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             middleName
@@ -180,7 +180,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             workPhone
@@ -189,7 +189,7 @@
                             <value></value>
                         </Row>
                         <Row>
-                            <lastUpdateTime>1970-01-01T00:00:00.000Z</lastUpdateTime>
+                            <lastUpdateTime>1969-12-31T19:00:00.000-05:00</lastUpdateTime>
                             <name>
                             <![CDATA[
                             state
